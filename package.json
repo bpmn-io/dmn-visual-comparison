@@ -1,0 +1,25 @@
+{
+  "name": "dmn-visual-comparison",
+  "version": "0.0.1",
+  "description": "A visual comparison tool for DMN diagrams",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx parcel src/index.html"
+  },
+  "author": "Nithin S. Sabu",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@parcel/transformer-inline-string": "^2.12.0",
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "camunda-dmn-js": "^2.9.1",
+    "dmn-js-differ": "git+ssh://git@github.com:nithinssabu/dmn-js-differ.git",
+    "dmn-moddle": "^10.0.0",
+    "jsondiffpatch": "^0.6.0"
+  },
+  "@parcel/resolver-default": {
+    "packageExports": true
+  }
+}
