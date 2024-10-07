@@ -3,13 +3,13 @@ import "camunda-dmn-js/dist/assets/camunda-cloud-modeler.css";
 
 import DmnDiffer from "dmn-js-differ";
 
-import dishDecisionV1 from "../dish-decision-v1.dmn";
-import dishDecisionV2 from "../dish-decision-v2.dmn";
-import dishDecisionV3 from "../dish-decision-v3.dmn";
-import dishDecisionV4 from "../dish-decision-v4.dmn";
-import dishDecisionV5 from "../dish-decision-v5.dmn";
-import dishDecisionV6 from "../dish-decision-v6.dmn";
-import dishDecisionV7 from "../dish-decision-v7.dmn";
+import dishDecisionV1 from "../resources/dish-decision-v1.dmn";
+import dishDecisionV2 from "../resources/dish-decision-v2.dmn";
+import dishDecisionV3 from "../resources/dish-decision-v3.dmn";
+import dishDecisionV4 from "../resources/dish-decision-v4.dmn";
+import dishDecisionV5 from "../resources/dish-decision-v5.dmn";
+import dishDecisionV6 from "../resources/dish-decision-v6.dmn";
+import dishDecisionV7 from "../resources/dish-decision-v7.dmn";
 
 window.dishDecisionV1 = dishDecisionV1;
 window.dishDecisionV2 = dishDecisionV2;
