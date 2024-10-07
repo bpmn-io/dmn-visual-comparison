@@ -2,6 +2,8 @@
 
 Visual comparison tool for DMN 1.3 documents.
 
+> This is work in progress and will not work for all cases.
+
 ## Usage
 
 ### Install dependencies
